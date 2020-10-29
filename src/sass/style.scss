@@ -2,13 +2,19 @@
 @import 'base/animation';
 
 * {
-    font-family: 'Museo Sans Cyrl', sans-serif;
+    font-family: 'Commissioner', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .container {
-    max-width: 950px;
+    width: 1170px;
     margin: 0 auto;
 }
 
 @import 'blocks/header';
+@import 'blocks/slider';
 @import 'blocks/buttons';
