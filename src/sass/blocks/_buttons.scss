@@ -1,2 +1,27 @@
 .button {
+  width: 200px;
+  height: 45px;
+  left: 375px;
+  top: 355px;
+  background: $accent-color;
+  border-radius: 2px;
+  border: none;
+  font-family: Commissioner;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #d1a631;
+    transition: background-color .3s ease-in;
+  }
 }
