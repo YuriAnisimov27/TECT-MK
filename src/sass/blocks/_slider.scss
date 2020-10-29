@@ -1,0 +1,30 @@
+.slider {
+  // width: 1920px;
+  width: 100vw;
+  height: 650px;
+  padding-top: 160px;
+  background: url(../../img/header-slider/Rectangle.png) center (center/cover) no-repeat;
+
+  h1 {
+    width: 500px;
+    font-family: Commissioner;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.01em;
+    color: rgba(0, 0, 0, 0.9);
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-family: Lato;
+    letter-spacing: 0.34px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 0.8);
+    margin-bottom: 50px;
+  }
+}
