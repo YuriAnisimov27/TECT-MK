@@ -15,6 +15,16 @@
     margin: 0 auto;
 }
 
+.grey {
+    background-color: #E5E5E5;
+    height: 2490px;
+}
+
 @import 'blocks/header';
 @import 'blocks/slider';
 @import 'blocks/buttons';
+@import 'blocks/advantages';
+@import 'blocks/introduction';
+@import 'blocks/directions';
+@import 'blocks/carousel';
+@import 'blocks/feedback';
