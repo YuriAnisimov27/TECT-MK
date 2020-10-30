@@ -1,0 +1,139 @@
+.feedback {
+  margin-top: 210px;
+
+  &__title {
+    font-family: Commissioner, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: 0.03em;
+    color: rgba(0, 0, 0, 0.9);
+    margin-bottom: 35px;
+  }
+
+  &__cards {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__card {
+    width: 570px;
+    height: 585px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.08);
+
+    &-image {
+      width: 570px;
+      height: 100px;
+      background: url("../../img/feedback/feedback1.png") center (center/cover) no-repeat;
+      background: url("../img/feedback/feedback1.png") center (center/cover) no-repeat;
+      margin-bottom: 40px;
+    }
+
+    &-position {
+      font-family: Lato,sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 15px;
+      line-height: 25px;
+      color: rgba(0, 0, 0, 0.5);
+      margin-left: 50px;
+      margin-bottom: 1px;
+    }
+
+    &-name {
+      font-family: Commissioner, sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 26px;
+      line-height: 40px;
+      letter-spacing: 0.01em;
+      color: $accent-color;
+      margin-left: 50px;
+      margin-bottom: 19px;
+    }
+
+    &-text {
+      width: 470px;
+      font-family: Lato, sans-serif;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 25px;
+      letter-spacing: 0.02em;
+      color: rgba(0, 0, 0, 0.5);
+      margin-left: 50px;
+      margin-bottom: 24px;
+    }
+
+    &-link {
+      text-decoration: none;
+      font-family: Lato, sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 20px;
+      letter-spacing: 0.02em;
+      text-transform: uppercase;
+      color: rgba(0, 0, 0, 0.5);
+      margin-left: 50px;
+    }
+  }
+
+  &__navigation {
+    margin-top: 29px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__dots {
+    width: 50px;
+    height: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+
+    &-active {
+      width: 10px;
+      height: 10px;
+      background: $accent-color;
+      border-radius: 300px;
+    }
+
+    &-disabled {
+      width: 10px;
+      height: 10px;
+      background: rgba(0, 0, 0, 0.1);
+      border-radius: 300px;
+      cursor: pointer;
+    }
+  }
+
+  &__arrows {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 105px;
+    padding-right: 25px;
+    margin-top: 11px;
+
+    &-left {
+      cursor: pointer;
+
+      &:hover {
+        transition: transform .2s ease-in;
+        transform: scale(1.2);
+      }
+    }
+
+    &-right {
+      cursor: pointer;
+
+      &:hover {
+        transition: transform .2s ease-in;
+        transform: scale(1.2);
+      }
+    }
+  }
+}
