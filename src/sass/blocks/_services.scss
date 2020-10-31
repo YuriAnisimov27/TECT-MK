@@ -1,0 +1,95 @@
+.services {
+  margin-top: 76px;
+
+
+  &__title {
+    font-family: Commissioner, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: 0.03em;
+    color: rgba(0, 0, 0, 0.9);
+    margin-bottom: 35px;
+  }
+
+  &__cards {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    column-gap: 30px;
+  }
+
+  &__card {
+    height: 140px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+    position: relative;
+    width: 570px;
+    padding-top: 25px;
+    padding-left: 100px;
+    @include bookmark();
+
+    &:nth-child(1), &:nth-child(6), &:nth-child(9) {
+      width: 470px;
+    }
+
+    &:nth-child(2), &:nth-child(5), &:nth-child(10) {
+      width: 670px;
+    }
+
+    &:nth-child(-n + 2), &:nth-child(n + 9) {
+      @include bookmark(.4);
+    }
+
+    &:nth-child(3), &:nth-child(4), &:nth-child(7), &:nth-child(8) {
+      @include bookmark(.75);
+    }
+
+    &-title {
+      width: 520px;
+      font-family: Commissioner, sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 30px;
+      color: rgba(0, 0, 0, 0.9);
+    }
+
+    &-link {
+      position: absolute;
+      right: 30px;
+      bottom: 20px;
+      text-decoration: none;
+      font-family: Lato, sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 20px;
+      letter-spacing: 0.02em;
+      text-transform: uppercase;
+      color: rgba(0, 0, 0, 0.5);
+
+      &:hover {
+        color: #000;
+      }
+    }
+  }
+
+  &__info {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+
+    &-text {
+      width: 770px;
+      font-family: Lato, sans-serif;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 15px;
+      line-height: 25px;
+      color: rgba(0, 0, 0, 0.5);
+      letter-spacing: 0.2px;
+    }
+  }
+}

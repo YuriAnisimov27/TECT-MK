@@ -1,0 +1,56 @@
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 30px;
+  row-gap: 30px;
+  margin-bottom: 100px;
+
+  &__card {
+    width: 570px;
+    height: 305px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+    padding: 40px 50px;
+    position: relative;
+    
+    &:nth-child(2) {
+      @include triangle();
+    }
+
+    &-title {
+      font-family: Commissioner, sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 26px;
+      line-height: 45px;
+      color: rgba(0, 0, 0, 0.9);
+      margin-bottom: 15px;
+    }
+
+    &-text {
+      font-family: Lato, sans-serif;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 15px;
+      line-height: 25px;
+      color: rgba(0, 0, 0, 0.5);
+    }
+
+    &-long {
+      width: 1170px;
+      height: 185px;
+      display: flex;
+      justify-content: space-between;
+
+
+      h4 {
+        width: 250px;
+        margin-top: -5px;
+      }
+
+      p {
+        width: 720px;
+      }
+    }
+  }
+}
