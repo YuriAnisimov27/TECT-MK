@@ -1,0 +1,29 @@
+@mixin triangle() {
+  &:before {
+    content: ' ';
+    position:absolute;
+    top: 0; 
+    right: 0;
+    background: linear-gradient(to left bottom, transparent 50%, $accent-color 0) 100% 0 no-repeat;
+    width: 70px;
+    height: 70px;
+    transform: rotate(180deg);
+  }
+}
+
+@mixin bookmark($opacity: 1) {
+  &:before {
+    content: ' ';
+    position:absolute;
+    top: 0; 
+    left: 0;
+    background: $accent-color;
+    width: 70px;
+    height: 140px;
+    opacity: $opacity;
+  }
+}
+
+@mixin bgc($color) {
+  background: $color;
+}

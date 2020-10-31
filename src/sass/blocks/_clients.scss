@@ -1,0 +1,35 @@
+.clients {
+  margin: 100px auto 93px;
+
+  &__info {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-right: 200px;
+
+    &-text {
+      width: 670px;
+      font-family: Lato,sans-serif;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 15px;
+      line-height: 25px;
+      color: rgba(0, 0, 0, 0.5);
+    }
+  }
+
+  &__logos {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 1px;
+
+    &-uncolored {
+      margin-top: 5px;
+      filter: grayscale(100%); 
+      height: 100%;
+    }
+  }
+}

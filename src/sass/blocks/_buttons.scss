@@ -24,4 +24,10 @@
     background-color: #d1a631;
     transition: background-color .3s ease-in;
   }
+
+  &-light {
+    border: 2px solid $accent-color;
+    background: #fff;
+    color: $accent-color;
+  }
 }

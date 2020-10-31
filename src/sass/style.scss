@@ -1,5 +1,6 @@
 @import 'base/variables';
 @import 'base/animation';
+@import 'base/mixins';
 
 * {
     font-family: 'Commissioner', sans-serif;
@@ -18,6 +19,15 @@
 .grey {
     background-color: #E5E5E5;
     height: 2490px;
+
+    &-second {
+        height: 2130px;
+        padding-top: 81px;
+
+        img {
+            width: 100vw;
+        }
+    }
 }
 
 @import 'blocks/header';
@@ -28,3 +38,6 @@
 @import 'blocks/directions';
 @import 'blocks/carousel';
 @import 'blocks/feedback';
+@import 'blocks/clients';
+@import 'blocks/about';
+@import 'blocks/services';
