@@ -28,6 +28,10 @@
             width: 100vw;
         }
     }
+
+    &-last {
+        height: 2225px;
+    }
 }
 
 @import 'blocks/header';
@@ -41,3 +45,7 @@
 @import 'blocks/clients';
 @import 'blocks/about';
 @import 'blocks/services';
+@import 'blocks/trust';
+@import 'blocks/_excellence';
+@import 'blocks/cooperation';
+@import 'blocks/form';
