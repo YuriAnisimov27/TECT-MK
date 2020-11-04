@@ -1,0 +1,236 @@
+.footer {
+  display: flex;
+  padding-top: 49px;
+
+  &__info {
+
+    &-title {
+      width: 270px;
+      font-family: Commissioner, sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 30px;
+      color: rgba(0, 0, 0, 0.9);
+      margin-bottom: 69px;
+    }
+
+    &-text {
+      font-family: Lato, sans-serif;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 13px;
+      line-height: 20px;
+      color: rgba(0, 0, 0, 0.5);
+      margin-bottom: 10px;
+
+      strong {
+        font-family: Commissioner, sans-serif;
+        font-weight: 500;
+        letter-spacing: 0.01em;
+        margin-right: 13px;
+      }
+    }
+
+    &-link {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      text-decoration: none;
+      font-family: Lato, sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 20px;
+      letter-spacing: 0.02em;
+      text-transform: uppercase;
+      color: rgba(0, 0, 0, 0.75);
+      margin-bottom: 12px;
+
+      img {
+        margin-left: 13px;
+        width: 60px;
+        height: 11.64px;
+      }
+    }
+  }
+
+  &__media {
+    margin-top: 60px;
+    margin-bottom: 45px;
+    display: flex;
+    justify-content: space-between;
+    width: 255px;
+
+    &-link {
+      width: 30px;
+
+      &:hover {
+        transform: scale(1.2);
+        transition: transform .2s ease-in-out;
+      }
+    }
+  }
+
+  &__inner {
+    width: 670px;
+    height: 510px;
+    padding-top: 33px;
+    display: flex;
+    flex-direction: column;
+    column-gap: 35px;
+    flex-wrap: wrap;
+  }
+
+  &__offices {
+    margin-left: 30px;
+    margin-top: 34px;
+
+    hr {
+      width: 639px;
+    }
+
+    &-title {
+      font-family: Lato, sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 15px;
+      line-height: 25px;
+      text-transform: uppercase;
+      color: rgba(0, 0, 0, 0.5);
+    }
+  }
+
+  &__office {
+    width: 200px;
+    height: 100%;
+
+    &-title {
+      font-family: Commissioner, sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 25px;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: rgba(0, 0, 0, 0.75);
+      margin-bottom: 19px;
+    }
+
+    &-tel {
+      display: block;
+      text-decoration: none;
+      font-family: Lato, sans-serif;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 13px;
+      line-height: 20px;
+      color: rgba(0, 0, 0, 0.8);
+
+      &:nth-child(4) {
+        margin-bottom: 21px;
+      }
+
+      &:nth-child(n + 5) {
+        margin-top: -5px;
+        margin-bottom: 20px;
+      }
+    }
+
+    &-address {
+      font-family: Commissioner, sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 13px;
+      line-height: 20px;
+      letter-spacing: 0.01em;
+      color: rgba(0, 0, 0, 0.75);
+      margin-top: -9px;
+    }
+
+    &-location {
+      display: block;
+      width: 160px;
+      text-decoration: none;
+      font-family: Lato;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 13px;
+      line-height: 20px;
+      color: rgba(0, 0, 0, 0.8);
+      margin-top: 4px;
+    }
+
+    &-email {
+      display: block;
+      text-decoration: none;
+      font-family: Lato, sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 13px;
+      line-height: 20px;
+      color: rgba(0, 0, 0, 0.8);
+      margin-top: 6px;
+      margin-bottom: 1px;
+    }
+
+    &:nth-child(n + 2) {
+      height: 125px;
+      margin-bottom: 34px;
+    }
+
+    &-minsk {
+
+      .footer__office-address {
+        margin-bottom: 4px;
+        margin-top: 19px;
+      }
+
+      .footer__office-location {
+        display: contents;
+      }
+
+      .footer__office-email {
+        display: contents;
+      }
+    }
+  }
+
+  &__reception {
+    width: 170px;
+    height: 335px;
+    margin-top: 34px;
+    margin-left: 29px;
+
+    &-title {
+      font-family: Lato, sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 15px;
+      line-height: 25px;
+      text-transform: uppercase;
+      color: rgba(0, 0, 0, 0.5);
+      margin-bottom: 33px;
+    }
+
+    &-subtitle {
+      font-family: Commissioner, sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 13px;
+      line-height: 20px;
+      letter-spacing: 0.01em;
+      color: rgba(0, 0, 0, 0.75);
+      margin-bottom: 5px;
+    }
+
+    &-text {
+      font-family: Lato, sans-serif;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 13px;
+      line-height: 20px;
+      margin-bottom: 30px;
+    }
+  }
+}
