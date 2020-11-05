@@ -1,6 +1,6 @@
 .services {
+  width: 100%;
   margin-top: 76px;
-
 
   &__title {
     font-family: Commissioner, sans-serif;
@@ -46,7 +46,14 @@
       @include bookmark(.75);
     }
 
+    &:nth-child(6) {
+      .services__card-title {
+        width: 400px;
+      }
+    }
+
     &-title {
+      left: 100px;
       width: 520px;
       font-family: Commissioner, sans-serif;
       font-style: normal;
