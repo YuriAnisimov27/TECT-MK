@@ -1,25 +1,24 @@
 function carousel() {
   const sliderData = [
     {
-      background: 'url("../img/carousel/carousel.png") center'
+      background: 'url("./img/carousel/carousel.png") center',
     },
     {
-      background: 'url("../img/carousel/carousel1.png") center'
+      background: 'url("./img/carousel/carousel1.png") center'
     },
     {
-      background: 'url("../img/carousel/carousel2.png") center'
+      background: 'url("./img/carousel/carousel2.png") center'
     },
     {
-      background: 'url("../img/carousel/carousel3.png") center'
+      background: 'url("./img/carousel/carousel3.png") center'
     },
     {
-      background: 'url("../img/carousel/carousel4.png") center'
+      background: 'url("./img/carousel/carousel4.png") center'
     },
   ];
   
   const arrowLeft = document.querySelector('.carousel__arrow-left');
   const arrowRight = document.querySelector('.carousel__arrow-right');
-  const carousel = document.querySelector('.carousel');
   const carouselImage = document.querySelector('.carousel__image');
   let counter = 0;
 

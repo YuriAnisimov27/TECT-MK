@@ -3,27 +3,27 @@ function slider() {
     {
       h1: 'Взыскание дебиторской задолженности',
       p: 'Индивидуальный подход и нацеленность на достижение результата',
-      background: 'url("../img/header-slider/Rectangle5.png") center'
+      background: 'url("/img/header-slider/Rectangle5.png") center'
     },
     {
       h1: 'Юридический аутсорсинг',
       p: 'Гарантия своевременности и качества услуг',
-      background: 'url("../img/header-slider/Rectangle1.png") center'
+      background: 'url("/img/header-slider/Rectangle1.png") center'
     },
     {
       h1: 'Юридическая консультация',
       p: 'Детальные разъяснения вопросов по ведению бизнеса от профессионалов',
-      background: 'url("../img/header-slider/Rectangle2.png") center'
+      background: 'url("/img/header-slider/Rectangle2.png") center'
     },
     {
       h1: 'Ликвидация предприятия',
       p: 'Эффективное решение сложных задач',
-      background: 'url("../img/header-slider/Rectangle3.png") center'
+      background: 'url("/img/header-slider/Rectangle3.png) center'
     },
     {
       h1: 'Регистрация ООО',
       p: 'Гарантируем минимальные сроки регистрации под ключ ',
-      background: 'url("../img/header-slider/Rectangle4.png") center'
+      background: 'url("/img/header-slider/Rectangle4.png") center'
     }
   ];
   
