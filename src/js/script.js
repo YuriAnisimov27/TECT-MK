@@ -1,1 +1,5 @@
-console.log('hello');
+import slider from './slider.js';
+
+window.addEventListener('DOMContentLoaded', () => {
+  slider();
+});
