@@ -4,7 +4,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-top: 100px;
+  margin-top: 99px;
 
   &__title {
     font-family: Commissioner, sans-serif;
@@ -96,10 +96,10 @@
       font-family: Lato, sans-serif;
       font-style: normal;
       font-weight: 300;
-      font-size: 15px;
+      font-size: 14px;
       line-height: 25px;
       color: rgba(0, 0, 0, 0.5);
-      letter-spacing: 0.014em;
+      letter-spacing: 0.68px;
       margin-bottom: 24px;
     }
   }

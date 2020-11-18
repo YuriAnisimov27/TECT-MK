@@ -1,15 +1,14 @@
 .introduction {
   display: flex;
-  // width: 1170px;
   height: 645px;
   background: #FFFFFF;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
   margin-top: 100px;
 
   &__info {
-    padding: 50px 60px 60px 70px;
+    padding: 48px 60px 60px 70px;
 
-    &-title {
+    &-subtitle {
       width: 540px;
       font-family: Commissioner, sans-serif;
       font-style: normal;
@@ -18,12 +17,24 @@
       line-height: 40px;
       letter-spacing: 0.03em;
       color: rgba(0, 0, 0, 0.9);
-      margin-bottom: 29px;
+    }
+
+    &-title {
+      width: 530px;
+      font-family: Commissioner, sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 28px;
+      line-height: 40px;
+      letter-spacing: 0.03em;
+      color: rgba(0, 0, 0, 0.9);
+      margin-bottom: 30px;
+      margin-left: 5px;
     }
 
     &-text {
       width: 470px;
-      letter-spacing: 0.01em;
+      letter-spacing: 0.17px;
       font-family: 'Lato', sans-serif;
       font-style: normal;
       font-weight: 300;
