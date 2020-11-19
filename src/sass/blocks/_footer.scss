@@ -13,6 +13,7 @@
       line-height: 30px;
       color: rgba(0, 0, 0, 0.9);
       margin-bottom: 69px;
+      margin-top: -2px;
     }
 
     &-text {
@@ -39,13 +40,13 @@
       text-decoration: none;
       font-family: Lato, sans-serif;
       font-style: normal;
-      font-weight: 600;
+      font-weight: 500;
       font-size: 12px;
       line-height: 20px;
-      letter-spacing: 0.02em;
+      letter-spacing: 0.4px;
       text-transform: uppercase;
       color: rgba(0, 0, 0, 0.75);
-      margin-bottom: 12px;
+      margin-bottom: 10px;
 
       img {
         margin-left: 13px;
@@ -57,7 +58,7 @@
 
   &__media {
     margin-top: 60px;
-    margin-bottom: 45px;
+    margin-bottom: 48px;
     display: flex;
     justify-content: space-between;
     width: 255px;
@@ -75,7 +76,7 @@
   &__inner {
     width: 670px;
     height: 510px;
-    padding-top: 33px;
+    padding-top: 28px;
     display: flex;
     flex-direction: column;
     column-gap: 35px;
@@ -87,6 +88,7 @@
     margin-top: 34px;
 
     hr {
+      margin-top: 5px;
       width: 639px;
     }
 
@@ -96,6 +98,7 @@
       font-weight: normal;
       font-size: 15px;
       line-height: 25px;
+      letter-spacing: 0.4px;
       text-transform: uppercase;
       color: rgba(0, 0, 0, 0.5);
     }
@@ -150,13 +153,14 @@
 
     &-location {
       display: block;
-      width: 160px;
+      width: 164px;
       text-decoration: none;
       font-family: Lato;
       font-style: normal;
       font-weight: 300;
       font-size: 13px;
       line-height: 20px;
+      text-align: justify;
       color: rgba(0, 0, 0, 0.8);
       margin-top: 4px;
     }
