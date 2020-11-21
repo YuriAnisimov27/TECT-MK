@@ -51,3 +51,17 @@
 @import 'blocks/form';
 @import 'blocks/_footer';
 @import 'blocks/copyrights';
+
+@media screen and (max-width: 1368px) {
+    .container {
+        width: 960px;
+    }
+
+    .grey {
+    
+        &-last {
+            height: 2850px;
+        }
+    }
+    
+}

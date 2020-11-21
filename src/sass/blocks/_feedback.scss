@@ -137,3 +137,38 @@
     }
   }
 }
+
+@media screen and (max-width: 1368px) {
+  .feedback {
+    margin-top: 500px;
+  
+    &__title {
+      margin-left: 20px;
+    }
+  
+    &__cards {
+      width: 100%;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  
+    &__card {
+      width: 444px;
+      height: 630px;
+  
+      &-image {
+        width: 100%;
+      }
+  
+      &-text {
+        width: 350px;
+        text-align: justify;
+      }
+    }
+  
+    &__navigation {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+}

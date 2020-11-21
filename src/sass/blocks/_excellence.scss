@@ -42,3 +42,16 @@
     }
   }
 }
+
+@media screen and (max-width: 1368px) {
+  .excellence {
+  
+    &__title {
+      padding-left: 20px;
+    }
+  
+    &__info {
+      width: 100%;
+    }
+  }
+}

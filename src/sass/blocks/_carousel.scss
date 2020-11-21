@@ -43,3 +43,25 @@
     }
   }
 }
+
+@media screen and (max-width: 1368px) {
+  .carousel {
+  
+    &__image {
+      width: 86%;
+    }
+  
+    &__arrow {
+  
+      &-left {
+        margin-left: 30px;
+        width: 10px;
+      }
+  
+      &-right {
+        margin-left: calc(100% - 40px);
+        width: 10px;
+      }
+    }
+  }
+}

@@ -99,3 +99,32 @@
     margin-bottom: 30px;
   }
 }
+
+@media screen and (max-width: 1368px) {
+  .cooperation {
+    width: 100%;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    flex-wrap: wrap;
+
+    &__form {
+      margin-top: -80px;
+    }
+  
+    &__steps {
+      flex-direction: row;
+      width: 100%;
+    }
+  
+    &__info {
+      width: 100%;
+    }
+  }
+  
+  .cooperation__cost {
+    margin-top: 330px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
