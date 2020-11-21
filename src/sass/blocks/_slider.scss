@@ -44,8 +44,6 @@
 
     &-left {
       cursor: pointer;
-      // position: absolute;
-      // right: 85px;
 
       &:hover {
         transform: scale(1.2);
@@ -55,13 +53,24 @@
 
     &-right {
       cursor: pointer;
-      // position: absolute;
-      // right: 25px;
 
       &:hover {
         transform: scale(1.2);
         transition: transform .3s ease-in;
       }
+    }
+  }
+}
+
+@media screen and (max-width: 1368px) {
+  .slider {
+  
+    .container {
+      padding-left: 20px;
+    }
+  
+    h1 {
+      width: 540px;
     }
   }
 }
