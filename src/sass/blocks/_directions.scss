@@ -140,3 +140,18 @@
     }
   }
 }
+
+@media screen and (max-width: 992px) {
+  .directions {
+    padding-left: 0;
+  
+    &__cards {
+      column-gap: 30px;
+      row-gap: 30px;
+    }
+  
+    &__card {
+      width: 345px;
+    }
+  }
+}

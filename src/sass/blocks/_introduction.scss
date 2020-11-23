@@ -68,3 +68,20 @@
     }
   }
 }
+
+@media screen and (max-width: 992px) {
+  .introduction {
+    background-image: url('./../../img/Rectangle141.png');
+    background-repeat: no-repeat;
+    background-position: right;
+
+    &__image {
+      display: none;
+    }
+  
+    &__info {
+      background: rgba(255,255,255,0.9);
+      width: 474px;
+    }
+  }
+}

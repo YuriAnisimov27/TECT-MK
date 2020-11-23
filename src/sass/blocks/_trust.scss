@@ -119,3 +119,28 @@
     }
   }
 }
+
+@media screen and (max-width: 992px) {
+  .trust {
+    height: 950px;
+  
+    hr {
+      margin-top: 118px;
+      margin-bottom: 30px;
+    }
+  
+    &__inner {
+      height: 600px;
+      flex-direction: column;
+    }
+  
+    &__info {
+      width: 100%;
+      margin-bottom: 30px;
+    }
+  
+    &__list {
+      margin-left: 50px;
+    }
+  }
+}

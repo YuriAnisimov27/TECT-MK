@@ -58,3 +58,22 @@
     }
   }
 }
+
+@media screen and (max-width: 992px) {
+  .clients {
+  
+    &__info {
+  
+      &-text {
+        width: 440px;
+      }
+    }
+  
+    &__logos {
+      justify-content: center;
+      flex-wrap: wrap;
+      column-gap: 59px;
+      row-gap: 30px;
+    }
+  }
+}

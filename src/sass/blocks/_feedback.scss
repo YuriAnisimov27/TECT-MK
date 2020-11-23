@@ -172,3 +172,24 @@
     }
   }
 }
+
+@media screen and (max-width: 992px) {
+  .feedback {
+    margin-top: 410px;
+  
+    &__cards {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    &__card {
+      width: 570px;
+      height: 585px;
+      margin-bottom: 20px;
+  
+      &-text {
+        width: 470px;
+      }
+    }
+  }
+}

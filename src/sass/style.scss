@@ -65,3 +65,20 @@
     }
     
 }
+
+@media screen and (max-width: 992px) {
+    .container {
+        width: 720px;
+    }
+
+    .grey {
+    
+        &-second {
+            height: 2325px;
+        }
+
+        &-last {
+            height: 2900px;
+        }
+    }
+}

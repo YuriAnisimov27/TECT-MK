@@ -52,3 +52,19 @@
     }
   }
 }
+
+@media screen and (max-width: 992px) {
+  .advantages {
+  
+    &__card {
+      width: 160px;
+      height: 230px;
+      padding: 20px;
+      margin-top: -40px;
+  
+      &-title {
+        font-size: 14px;
+      }
+    }
+  }
+}

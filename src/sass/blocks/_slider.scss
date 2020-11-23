@@ -74,3 +74,13 @@
     }
   }
 }
+
+@media screen and (max-width: 992px) {
+  .slider {
+    height: 520px;
+  
+    &__nav {
+      bottom: 50px;
+    }
+  }
+}

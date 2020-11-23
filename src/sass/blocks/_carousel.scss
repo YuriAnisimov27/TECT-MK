@@ -65,3 +65,23 @@
     }
   }
 }
+
+@media screen and (max-width: 992px) {
+  .carousel {
+  
+    &__image {
+      height: 430px;
+    }
+  
+    &__arrow {
+  
+      &-left {
+        margin-top: -234px;
+      }
+  
+      &-right {
+        margin-top: -30px;
+      }
+    }
+  }
+}

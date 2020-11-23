@@ -168,3 +168,36 @@
     }
   }
 }
+
+@media screen and (max-width: 992px) {
+  .header {
+  
+    &__lang {
+      margin-right: 0;
+      margin-left: -90px;
+    }
+  
+    &__contacts {
+      width: 120px;
+      padding-right: 0;
+  
+      &-first {
+        display: none;
+      }
+  
+      &-second {
+        display: none;
+      }
+    }
+  
+    &__navigation {
+      width: 430px;
+      margin-right: -25px;
+  
+      &-link {
+        font-weight: 400;
+        font-size: 12px;
+      }
+    }
+  }
+}

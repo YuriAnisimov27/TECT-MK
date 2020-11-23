@@ -75,3 +75,18 @@
     }
   }
 }
+
+@media screen and (max-width: 992px) {
+  .about {
+  
+    &__card {
+      width: 325px;
+      height: 525px;
+  
+      &-long {
+        width: 100%;
+        height: 230px;
+      }
+    }
+  }
+} 
