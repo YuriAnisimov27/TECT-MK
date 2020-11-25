@@ -69,3 +69,16 @@
     }
   }
 }
+
+@media screen and (max-width: 768px) {
+  .excellence {
+  
+    .advantages {
+      height: 720px;
+    }
+  
+    &__info {
+      margin-top: -10px;
+    }
+  }
+}

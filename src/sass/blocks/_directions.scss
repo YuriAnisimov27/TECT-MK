@@ -155,3 +155,20 @@
     }
   }
 }
+
+@media screen and (max-width: 768px) {
+  .directions {
+  
+    &__card {
+      width: 100%;
+
+      &:nth-child(n + 6) {
+        display: none;
+      }
+    }
+  
+    &__description {
+      margin-top: 150px;
+    }
+  }
+}

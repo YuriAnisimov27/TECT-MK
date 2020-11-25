@@ -160,3 +160,23 @@
     }
   }
 }
+
+@media screen and (max-width: 768px) {
+  .services {
+  
+    &__card {
+      padding-top: 10px;
+
+      &:nth-child(n) {
+        width: 500px;
+      }
+    }
+  
+    &__info {
+
+      &-text {
+        width: 280px;
+      }
+    }
+  }
+}

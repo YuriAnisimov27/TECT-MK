@@ -82,3 +82,21 @@
         }
     }
 }
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 540px;
+    }
+
+    .grey {
+        height: 3000px;
+    
+        &-second {
+            height: 3645px;
+        }
+
+        &-last {
+            height: 3500px;
+        }
+    }
+}

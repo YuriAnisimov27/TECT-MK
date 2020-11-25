@@ -77,3 +77,16 @@
     }
   }
 }
+
+@media screen and (max-width: 768px) {
+  .clients {
+  
+    &__info {
+      padding-right: 0;
+  
+      &-text {
+        width: 280px;
+      }
+    }
+  }
+}

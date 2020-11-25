@@ -84,3 +84,14 @@
     }
   }
 }
+
+@media screen and (max-width: 768px) {
+  .slider {
+    height: 400px;
+    padding-top: 60px;
+  
+    &__nav {
+      bottom: 35px;
+    }
+  }
+}

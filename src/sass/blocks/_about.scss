@@ -90,3 +90,24 @@
     }
   }
 } 
+
+@media screen and (max-width: 756px) {
+  .about {
+  
+    &__card {
+      width: 500px;
+      height: 365px;
+  
+      &-long {
+  
+        h4 {
+          width: 300px;
+        }
+  
+        p {
+          width: 450px;
+        }
+      }
+    }
+  }
+}

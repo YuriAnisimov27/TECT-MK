@@ -123,8 +123,37 @@
   }
   
   .cooperation__cost {
+    width: 500px;
     margin-top: 330px;
     padding-left: 20px;
     padding-right: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cooperation {
+
+    &__form {
+      margin-top: 10px;
+    }
+  
+    &__info {
+  
+      &-text {
+        margin-top: 95px;
+      }
+    }
+  }
+  
+  .cooperation__cost {
+  
+    &-title {
+      width: 500px;
+      margin-top: 400px;
+    }
+  
+    &-text {
+      width: 500px;
+    }
   }
 }

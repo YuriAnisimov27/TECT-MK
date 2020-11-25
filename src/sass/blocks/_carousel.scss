@@ -85,3 +85,24 @@
     }
   }
 }
+
+@media screen and (max-width: 768px) {
+  .carousel {
+    margin-top: 130px;
+  
+    &__image {
+      height: 360px;
+    }
+  
+    &__arrow {
+  
+      &-left {
+        margin-left: 15px;
+      }
+  
+      &-right {
+        margin-left: calc(100% - 25px);
+      }
+    }
+  }
+}

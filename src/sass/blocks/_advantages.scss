@@ -68,3 +68,14 @@
     }
   }
 }
+
+@media screen and (max-width: 768px) {
+  .advantages {
+    flex-wrap: wrap;
+    height: 500px;
+  
+    &__card {
+      width: 230px;
+    }
+  }
+}

@@ -193,3 +193,17 @@
     }
   }
 }
+
+@media screen and (max-width: 768px) {
+  .feedback {
+    margin-top: 110px;
+  
+    &__card {
+      width: 100%;
+  
+      &-text {
+        width: 400px;
+      }
+    }
+  }
+}
