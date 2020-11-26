@@ -180,3 +180,24 @@
     }
   }
 }
+
+
+@media screen and (max-width: 576px) {
+  .services {
+  
+    &__card {
+
+      &:nth-child(5), &:nth-child(6) {
+        display: none;
+      }
+    }
+  
+    &__info {
+      flex-wrap: wrap;
+
+      &-text {
+        margin-bottom: 20px;
+      }
+    }
+  }
+}

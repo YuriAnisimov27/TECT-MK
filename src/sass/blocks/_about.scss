@@ -111,3 +111,16 @@
     }
   }
 }
+
+@media screen and (max-width: 576px) {
+  .about {
+  
+    &__card {
+      height: 690px;
+  
+      &-long {
+        display: none;
+      }
+    }
+  }
+}

@@ -172,3 +172,16 @@
     }
   }
 }
+
+@media screen and (max-width: 576px) {
+  .directions {
+  
+    &__cards {
+      margin-bottom: 20px;
+    }
+
+    &__description {
+      margin-top: 340px;
+    }
+  }
+}

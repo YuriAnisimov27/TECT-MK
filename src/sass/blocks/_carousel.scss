@@ -106,3 +106,25 @@
     }
   }
 }
+
+@media screen and (max-width: 576px) {
+  .carousel {
+    margin-top: 300px;
+  
+    &__image {
+      height: 260px;
+    }
+  
+    &__arrow {
+  
+      &-left {
+        margin-top: -140px;
+        margin-left: 5px;
+      }
+  
+      &-right {
+        margin-left: calc(100% - 15px);
+      }
+    }
+  }
+}

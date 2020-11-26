@@ -99,3 +99,27 @@
     }
   }
 }
+
+@media screen and (max-width: 576px) {
+  .introduction {
+    height: 925px;
+    margin-top: 80px;
+  
+    &__info {
+      padding: 5px;
+      width: 300px;
+  
+      &-subtitle {
+        width: 300px;
+      }
+  
+      &-title {
+        width: 280px;
+      }
+  
+      &-text {
+        width: 280px;
+      }
+    }
+  }
+}

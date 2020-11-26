@@ -90,3 +90,31 @@
     }
   }
 }
+
+@media screen and (max-width: 576px) {
+  .clients {
+  
+    &__info {
+      justify-content: center;
+      flex-direction: column;
+  
+      &-text {
+        width: 100%;
+        margin-bottom: 20px;
+      }
+    }
+  
+    &__logos {
+      flex-wrap: wrap;
+      column-gap: 0;
+      row-gap: 0;
+  
+      &-uncolored {
+
+        &:nth-child(3) {
+          width: 250px;
+        }
+      }
+    }
+  }
+}
