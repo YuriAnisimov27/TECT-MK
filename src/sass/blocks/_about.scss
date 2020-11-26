@@ -75,3 +75,52 @@
     }
   }
 }
+
+@media screen and (max-width: 992px) {
+  .about {
+  
+    &__card {
+      width: 325px;
+      height: 525px;
+  
+      &-long {
+        width: 100%;
+        height: 230px;
+      }
+    }
+  }
+} 
+
+@media screen and (max-width: 756px) {
+  .about {
+  
+    &__card {
+      width: 500px;
+      height: 365px;
+  
+      &-long {
+  
+        h4 {
+          width: 300px;
+        }
+  
+        p {
+          width: 450px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .about {
+  
+    &__card {
+      height: 690px;
+  
+      &-long {
+        display: none;
+      }
+    }
+  }
+}

@@ -260,3 +260,61 @@
     }
   }
 }
+
+@media screen and (max-width: 768px) {
+  .footer {
+  
+    &__info {
+      margin-right: 20px;
+    }
+  
+    &__inner {
+      width: 500px;
+      height: 670px;
+    }
+  
+    &__offices {
+      width: 500px;
+  
+      hr {
+        width: 500px;
+      }
+    }
+  
+    &__office {
+
+      &-minsk {
+        height: 370px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .footer {
+    
+    &__inner {
+      width: 300px;
+      height: 1200px;
+      align-items: center;
+    }
+  
+    &__offices {
+      margin: 0;
+      padding: 10px;
+      width: 320px;
+  
+      hr {
+        width: 100%;
+      }
+  
+      &-title {
+        margin-top: 10px;
+      }
+    }
+  
+    &__office {
+      width: 200px;
+    }
+  }
+}

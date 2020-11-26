@@ -140,3 +140,48 @@
     }
   }
 }
+
+@media screen and (max-width: 992px) {
+  .directions {
+    padding-left: 0;
+  
+    &__cards {
+      column-gap: 30px;
+      row-gap: 30px;
+    }
+  
+    &__card {
+      width: 345px;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .directions {
+  
+    &__card {
+      width: 100%;
+
+      &:nth-child(n + 6) {
+        display: none;
+      }
+    }
+  
+    &__description {
+      margin-top: 150px;
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .directions {
+  
+    &__cards {
+      margin-bottom: 20px;
+    }
+
+    &__description {
+      margin-top: 340px;
+    }
+  }
+}

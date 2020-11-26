@@ -65,3 +65,56 @@
     }
     
 }
+
+@media screen and (max-width: 992px) {
+    .container {
+        width: 720px;
+    }
+
+    .grey {
+    
+        &-second {
+            height: 2325px;
+        }
+
+        &-last {
+            height: 2900px;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 540px;
+    }
+
+    .grey {
+        height: 3000px;
+    
+        &-second {
+            height: 3645px;
+        }
+
+        &-last {
+            height: 3500px;
+        }
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+        width: 300px;
+    }
+
+    .grey {
+        height: 4000px;
+    
+        &-second {
+            height: 3750px;
+        }
+
+        &-last {
+            height: 5670px;
+        }
+    }
+}

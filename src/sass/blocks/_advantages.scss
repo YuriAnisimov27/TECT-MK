@@ -52,3 +52,42 @@
     }
   }
 }
+
+@media screen and (max-width: 992px) {
+  .advantages {
+  
+    &__card {
+      width: 160px;
+      height: 230px;
+      padding: 20px;
+      margin-top: -40px;
+  
+      &-title {
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .advantages {
+    flex-wrap: wrap;
+    height: 500px;
+  
+    &__card {
+      width: 230px;
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .advantages {
+    flex-direction: column;
+    align-items: center;
+    height: 1000px;
+  
+    &__card {
+      margin-top: -9px;
+    }
+  }
+}
