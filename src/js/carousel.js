@@ -25,12 +25,14 @@ function carousel() {
   arrowLeft.addEventListener('click', () => {
     counter = (counter) ? counter - 1 : 4;
     carouselImage.style.background = sliderData[counter].background;
+    carouselImage.style.backgroundSize = 'auto 100%';
     carouselImage.style.transition = '0.6s ease';
   });
   
   arrowRight.addEventListener('click', () => {
     counter = Math.abs(counter + 1) % 5;
     carouselImage.style.background = sliderData[counter].background;
+    carouselImage.style.backgroundSize = 'auto 100%';
     carouselImage.style.transition = '0.6s ease';
   });
 }

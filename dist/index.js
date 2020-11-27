@@ -3,27 +3,27 @@ function slider() {
     {
       h1: 'Взыскание дебиторской задолженности',
       p: 'Индивидуальный подход и нацеленность на достижение результата',
-      background: 'url("./img/header-slider/Rectangle5.png") center'
+      background: 'url("./img/header-slider/Rectangle5.png")'
     },
     {
       h1: 'Юридический аутсорсинг',
       p: 'Гарантия своевременности и качества услуг',
-      background: 'url("./img/header-slider/Rectangle1.png") center'
+      background: 'url("./img/header-slider/Rectangle1.png")'
     },
     {
       h1: 'Юридическая консультация',
       p: 'Детальные разъяснения вопросов по ведению бизнеса от профессионалов',
-      background: 'url("./img/header-slider/Rectangle2.png") center'
+      background: 'url("./img/header-slider/Rectangle2.png")'
     },
     {
       h1: 'Ликвидация предприятия',
       p: 'Эффективное решение сложных задач',
-      background: 'url("./img/header-slider/Rectangle3.png") center'
+      background: 'url("./img/header-slider/Rectangle3.png")'
     },
     {
       h1: 'Регистрация ООО',
       p: 'Гарантируем минимальные сроки регистрации под ключ ',
-      background: 'url("./img/header-slider/Rectangle4.png") center'
+      background: 'url("./img/header-slider/Rectangle4.png")'
     }
   ];
   
@@ -43,17 +43,23 @@ function slider() {
   arrowLeft.addEventListener('click', () => {
     counter = (counter) ? counter - 1 : 4;
     updateSliderData(counter);
+    slider.style.backgroundPosition = '75% 0%';
+    slider.style.backgroundSize = 'auto 100%';
+    slider.style.backgroundRepeat = 'no-repeat';
+
     slider.style.transition = '0.6s ease';
   });
   
   arrowRight.addEventListener('click', () => {
     counter = Math.abs(counter + 1) % 5;
     updateSliderData(counter);
+    slider.style.backgroundPosition = '75% 0%';
+    slider.style.backgroundSize = 'auto 100%';
+    slider.style.backgroundRepeat = 'no-repeat';
+
     slider.style.transition = '0.6s ease';
   });
 }
-
-slider();
 
 function carousel() {
   const sliderData = [
@@ -82,14 +88,19 @@ function carousel() {
   arrowLeft.addEventListener('click', () => {
     counter = (counter) ? counter - 1 : 4;
     carouselImage.style.background = sliderData[counter].background;
+    carouselImage.style.backgroundSize = 'auto 100%';
     carouselImage.style.transition = '0.6s ease';
   });
   
   arrowRight.addEventListener('click', () => {
     counter = Math.abs(counter + 1) % 5;
     carouselImage.style.background = sliderData[counter].background;
+    carouselImage.style.backgroundSize = 'auto 100%';
     carouselImage.style.transition = '0.6s ease';
   });
 }
 
-carousel();
+window.addEventListener('DOMContentLoaded', () => {
+  slider();
+  carousel();
+});
